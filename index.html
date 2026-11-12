@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Política de Privacidade do aplicativo Darkzuno — Idle RPG.">
+    <title>Política de Privacidade — Darkzuno</title>
+    <style>
+      :root { color-scheme: dark; --bg: #10131d; --surface: #181d2a; --text: #f3f5fb; --muted: #b8c0d4; --accent: #91e6bb; --line: #30384d; }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body { margin: 0; background: radial-gradient(circle at top, #202a3d 0, var(--bg) 36rem); color: var(--text); font: 16px/1.7 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      main { width: min(100% - 2rem, 820px); margin: 0 auto; padding: 3.5rem 0 5rem; }
+      header { margin-bottom: 2.5rem; }
+      .eyebrow { color: var(--accent); font-size: .8rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+      h1, h2 { line-height: 1.2; letter-spacing: -.02em; }
+      h1 { margin: .65rem 0 1rem; font-size: clamp(2rem, 7vw, 3.4rem); }
+      h2 { margin: 2.25rem 0 .7rem; font-size: 1.45rem; }
+      p, ul { margin: .75rem 0; }
+      ul { padding-left: 1.35rem; }
+      li + li { margin-top: .4rem; }
+      .intro, .notice { background: color-mix(in srgb, var(--surface) 92%, transparent); border: 1px solid var(--line); border-radius: 1rem; padding: 1.1rem 1.25rem; }
+      .notice { border-left: 4px solid var(--accent); }
+      .meta { color: var(--muted); font-size: .95rem; }
+      a { color: var(--accent); }
+      strong { color: #fff; }
+      code { color: #d8ffe9; font-size: .95em; }
+      footer { border-top: 1px solid var(--line); color: var(--muted); margin-top: 3rem; padding-top: 1.25rem; font-size: .92rem; }
+      @media (max-width: 520px) { main { padding-top: 2rem; } h2 { font-size: 1.3rem; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="eyebrow">Darkzuno — Idle RPG</div>
+        <h1>Política de Privacidade</h1>
+        <p class="meta">Última atualização: 12 de novembro de 2026 · Pacote Android: <code>com.rafael.idlerpg</code></p>
+      </header>
+
+      <section class="intro" aria-label="Resumo">
+        Esta política explica quais dados podem ser tratados pelo Darkzuno — Idle RPG, para que são usados e quais opções estão disponíveis. A versão 1.0 é gratuita, oferece anúncios recompensados opcionais no Android e não oferece compras internas.
+      </section>
+
+      <h2>1. Quem somos e como falar conosco</h2>
+      <p>O aplicativo é o Darkzuno — Idle RPG. Para suporte, dúvidas, solicitações de privacidade ou pedidos relacionados à sua conta, escreva para <a href="mailto:darkzunorpg@gmail.com">darkzunorpg@gmail.com</a>. Não é necessário enviar senha, código OTP ou outros dados além do necessário para localizar e atender o pedido.</p>
+
+      <h2>2. Dados tratados e finalidade</h2>
+      <ul>
+        <li><strong>Progresso local:</strong> nome do herói informado no jogo, progresso, inventário, equipamentos, pets, recursos, configurações relacionadas ao jogo, datas de salvamento e dados técnicos necessários para manter os quatro slots. Esses dados ficam no armazenamento local do navegador ou Android WebView e são usados para carregar e salvar a partida.</li>
+        <li><strong>Backups:</strong> quando você exporta um backup, o aplicativo gera um arquivo JSON no local escolhido por você. Quando você importa um backup, lê o arquivo que você selecionar para validar e restaurar o slot. O aplicativo não envia esse arquivo para nós.</li>
+        <li><strong>Conta opcional:</strong> se o Supabase estiver configurado na distribuição utilizada, o login usa seu endereço de e-mail e um código de acesso enviado por e-mail (OTP). O Supabase mantém a sessão necessária para autenticação. A conta não sincroniza personagens, progresso, diamantes, compras ou backups.</li>
+        <li><strong>Anúncios recompensados:</strong> no Android, um anúncio só é solicitado depois de uma ação voluntária para receber a recompensa. O Google Mobile Ads/AdMob e o UMP podem tratar informações como identificadores do dispositivo ou de publicidade, informações do aplicativo e do dispositivo, endereço IP, país/região, interação com o anúncio e escolhas de consentimento, conforme a configuração do Google e o consentimento aplicável. O aplicativo não adiciona banners nem intersticiais nesta versão.</li>
+      </ul>
+
+      <h2>3. Consentimento e anúncios</h2>
+      <p>Antes de solicitar anúncios, o aplicativo consulta o UMP. Quando o formulário é exigido e está disponível, ele é apresentado; se o consentimento não permitir solicitações, o anúncio não é solicitado e a recompensa não é concedida. Quando o SDK exigir, as opções de privacidade podem ser reabertas em Configurações no aplicativo.</p>
+      <p>Você pode recusar o anúncio ou interrompê-lo. Cancelamento, indisponibilidade ou erro não concedem a recompensa. A recompensa é um bônus temporário de jogo, não uma compra.</p>
+
+      <h2>4. Terceiros</h2>
+      <ul>
+        <li><strong>Supabase:</strong> autenticação opcional por e-mail e sessão, quando habilitada pela configuração da distribuição. Consulte também a política de privacidade e os termos do Supabase.</li>
+        <li><strong>Google AdMob e Google UMP:</strong> entrega, medição e consentimento de anúncios recompensados, quando habilitados e permitidos. O tratamento segue as políticas do Google e as escolhas feitas no formulário de consentimento.</li>
+        <li><strong>GitHub Pages:</strong> se esta política for hospedada no GitHub Pages, o GitHub poderá tratar dados técnicos de acesso conforme seus próprios termos e política. Esta página não instala cookies de rastreamento, não usa scripts externos, analytics, pixels ou fontes externas.</li>
+      </ul>
+
+      <h2>5. Armazenamento, segurança e retenção</h2>
+      <p>Os saves e as preferências de jogo permanecem no armazenamento local até que você exclua o slot, limpe os dados do aplicativo/navegador ou desinstale o aplicativo. Backups exportados ficam sob seu controle no local escolhido e devem ser apagados por você quando não forem mais necessários. Como esses dados são locais, perder o dispositivo, limpar o WebView ou apagar o arquivo pode causar perda do progresso.</p>
+      <p>A sessão de autenticação é mantida pelo cliente Supabase enquanto a conta estiver conectada e pode ser encerrada pelo logout. Não há servidor do Darkzuno que receba ou mantenha os saves. O prazo de retenção de registros da autenticação e dos dados tratados pelo Supabase ou pelo Google é definido pelos respectivos serviços e configurações, não por um sistema de saves do Darkzuno.</p>
+      <p>Adotamos as proteções fornecidas pelo navegador, Android, Supabase e SDKs utilizados, mas nenhum armazenamento ou transmissão é completamente imune a riscos.</p>
+
+      <h2>6. Exclusão e solicitações de privacidade</h2>
+      <p>Você pode excluir um personagem pela função de exclusão do próprio slot. Isso remove o save principal daquele slot no armazenamento local, mas não remove automaticamente backups exportados, dados de outros slots ou a conta Supabase.</p>
+      <div class="notice">
+        <strong>Pendência atual:</strong> o aplicativo 1.0 não possui um mecanismo automatizado para excluir a conta Supabase. O logout apenas encerra a sessão; ele não exclui a conta. Para solicitar a exclusão ou perguntar sobre os dados de autenticação, envie um e-mail para <a href="mailto:darkzunorpg@gmail.com">darkzunorpg@gmail.com</a>. O atendimento deverá confirmar a solicitação e executar o procedimento disponível no projeto Supabase antes de informar que a exclusão foi concluída.
+      </div>
+      <p>Ao solicitar acesso, correção ou exclusão, informe o e-mail da conta e descreva o pedido. Poderemos pedir informações mínimas para confirmar que a solicitação é legítima. Também é possível solicitar a interrupção do uso de anúncios recusando o consentimento ou usando as opções de privacidade apresentadas pelo UMP.</p>
+
+      <h2>7. Crianças</h2>
+      <p>O aplicativo não foi descrito como destinado exclusivamente a crianças. Responsáveis devem acompanhar o uso por menores e as escolhas de consentimento. Se você entender que dados de uma criança foram enviados indevidamente, entre em contato pelo e-mail acima.</p>
+
+      <h2>8. Alterações nesta política</h2>
+      <p>Podemos atualizar esta política quando o aplicativo, os SDKs, os provedores ou os requisitos legais mudarem. A data de atualização no topo será alterada quando isso ocorrer. Mudanças relevantes devem ser revisadas antes de uma nova distribuição.</p>
+
+      <footer>
+        <p>Contato de privacidade: <a href="mailto:darkzunorpg@gmail.com">darkzunorpg@gmail.com</a></p>
+      </footer>
+    </main>
+  </body>
+</html>
